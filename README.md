@@ -10,10 +10,13 @@ First, the program has a contract with public variables storing the details abou
 After that, we are mapping addresses to unsigned integers.
 
 Then there are two functions mint and burn.
-Mint function has two parameters address and value . Mint function increases the total supply by the number and then it increases the sender's balance by a similar amount.
 
-Burn function is opposite to Mint function, Burn function decreases the total supply by the number and then decreases the sender's ;  balance by a similar amount.
+Mint Function :- Mint function has two parameters address and value . Mint function increases the total supply by the number and then it increases the sender's balance by a similar amount.
+
+Burn Function :- Burn function is opposite to Mint function.It takes an address and value just like the mint functions. Burn function decreases the total supply by the number and then decreases the sender's ;  balance by a similar amount.
 It should follow the condition that balance of sender should be greater than the amount that is burned.
+
+As we see the complete functionality of the code depends on Mint and Burn function which are increasing and decreasing the total supply respectively.
 
 
 
