@@ -1,6 +1,6 @@
-# Project Title
+# Token Creation for ETH Proof Begineer Course
 
-Token Creation for ETH Proof Beginner Course
+We are creating a smart contract with public variables for Token Name, Token Abbrv., and Total Supply, along with a mapping of addresses to balances. Then we are implementing  a mint function to increase total supply and address balances, and a burn function to decrease them, ensuring the address balance is sufficient before burning tokens.
 
 ## Description
 
@@ -18,5 +18,11 @@ It should follow the condition that balance of sender should be greater than the
 
 ## Executing program
 
-You can use Remix IDE to execute the code .
+To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
+
+Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension . Copy and paste the  code into the file and then execute it.
+
+
+## Authors
+Mayank Sharma 
 
